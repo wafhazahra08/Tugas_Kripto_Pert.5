@@ -5,11 +5,20 @@
 ### Kelas : TI.22.A.5
 
 #### - TUGAS KRIPTOGRAFI PLAYFAIR CIPHER :
-![21](https://github.com/user-attachments/assets/4ff3f2fd-960d-4c18-9d1e-24bef39fe6e8)
 
+### Penjelasan :
+
+Key : TEKNIK INFORMATIKA
+Plaintext : 
+1. GOOD BROOM SWEEP CLEAN
+2. REDWOOD NATIONAL STATE PARK
+3. JUNK FOOD AND HEALTH PROBLEMS
+
+Kunci yang digunakan adalah "TEKNIFORMA" untuk membuat matriks Playfair 5x5, huruf yang berulang dihilangkan. Huruf yang tersisa dipenuhi dengan huruf alfabet lainnya kecuali huruf J.
+
+```
 ### Berikut code nya :
 
-'''
 import re
 
 # Fungsi untuk membersihkan input teks dan menyesuaikan panjangnya
@@ -100,17 +109,12 @@ for plaintext in plaintexts:
     print(f"Plaintext: {plaintext}")
     print(f"Encrypted: {encrypted}")
     print(f"Decrypted: {decrypted}\n")
-'''
+```
 
-### Penjelasan singkat :
+![WhatsApp Image 2024-10-16 at 2 15 09 PM](https://github.com/user-attachments/assets/f4942fc9-9ff4-4f88-82ae-9693652189eb)
 
-Key : TEKNIK INFORMATIKA
-Plaintext : 
-1. GOOD BROOM SWEEP CLEAN
-2. REDWOOD NATIONAL STATE PARK
-3. JUNK FOOD AND HEALTH PROBLEMS
 
-Kunci yang digunakan adalah "TEKNIFORMA" untuk membuat matriks Playfair 5x5, huruf yang berulang dihilangkan. Huruf yang tersisa dipenuhi dengan huruf alfabet lainnya kecuali huruf J.
+
 
 
 
